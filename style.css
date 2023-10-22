@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(12, 12, 12), rgb(225, 132, 0));
+
+}
+
+header {
+    background-color: black;
+    margin-top: 0;
+    height: 4em;
+    padding: 0.05em;
+    width: 100%;
+}
+
+header h1 {
+    color: rgb(255, 132, 0);
+    font-size: 2em;
+    text-align: center;
+}
+
+.first-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-div {
+    width: 50%;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+
+}
+
+.third-div {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+input[type=text] {
+    width: 25em;
+    font-size: 1.2em;
+    padding: 0.3em;
+    color: white;
+    background-color: rgb(51, 52, 62);
+    border: none;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: none;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: rgb(255, 132, 0);
+    height: 2.4em;
+    width: 3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list ul {
+    position: relative;
+    background-color: rgb(51, 52, 62);
+    color: white;
+}
+
+.list ul li {
+    list-style-type: none;
+    color: orange;
+    padding: 0.5em;
+    font-size: 1.2em;
+    text-align: left;
+}
